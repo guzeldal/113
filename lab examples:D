@@ -1,0 +1,251 @@
+#include <stdio.h>
+
+int main()
+{
+
+	int rate,amount,final,x;
+	printf("Enter amount: ");
+	scanf("%d",amount);
+	void f(const int j);
+	 { CAT<j> cat;}
+	}
+	switch(x)
+	{
+	case amount<25:
+		rate=145000;
+		break;
+		
+	case 25<=amount<=100:
+		rate=2500000+(x-25)*120000;
+		break;
+	case amount>100:
+		rate=3000000+(x-100)*140000;
+		break;
+    
+    
+    
+    #include<stdio.h>
+int f(int *arr[10]);
+int main (){
+	int num[10]
+	printf("enter 10 numbers :");
+	for(i=0;i<10;i++){
+		scanf("%d",&num[i]);
+	}
+	count=f(&num);
+	
+}
+int f(int *arr[10]){
+	int i,count
+	for(i=0;i<10;i++){
+		while(*arr[i]<=10){
+			*arr[i]/=10;
+			count+=1;
+		}
+	}
+}
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main(void)
+{
+	float side;
+	char ch;
+	printf("Enter the side of square:");
+	scanf("%f",&side);
+	printf("Enter a character:");
+	scanf("%s",&ch);
+
+	if(ch=='P')
+	{
+		printf("Perimeter of the square: %.0f\n",4*side);
+	}
+	else if(ch=='A')
+	{
+		printf("Area of the square: %.0f\n",side*side);
+	}
+	else
+	{
+		printf("Error!!\n");
+	}
+	system("pause");
+	return 0;
+}
+
+#include <stdio.h>
+#include <math.h>
+
+void area();
+int main(){
+	area();
+	return 0;
+}
+void area(){
+	int a,b,c;
+	double s,alan;
+	printf("Enter Triangle's sides: \n");
+	scanf("%d%d%d",&a,&b,&c);
+	s=(a+b+c)/2.0;
+	alan=sqrt(s*(s-a)*(s-b)*(s-c));
+	printf("Area of the triangle is: %.2lf\n",alan);
+}
+
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int sum_digits(int n){
+	int ones,tens,hundreds,result;
+	ones=n%10;
+	tens=(n/10)%10;
+	hundreds=n/100;
+	result=ones+tens+hundreds;
+	return result;
+	
+}
+int main(){
+	int num,sum=0;
+	printf("enter an integer: ");
+	scanf("%d",&num);
+	sum=sum_digits(num);
+	printf("sum of digits: %d \n",sum);
+	return 0;
+}
+
+
+
+
+
+
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	int row,col,ui;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for ()
+		for (col=0;col<ui-row;col++)
+		{
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+
+
+#include<stdio.h>
+
+int main()
+{
+	int row,num,col=0;
+	char output='*';
+	printf("soyle: ");
+	scanf("%d",&row);
+	for(row>0; row!=0;row--)
+	{
+		for (row>col;col!=row;col++)
+		{
+			printf("%c",output);  
+		}
+	}
+		printf("\n");
+		return 0;
+}
+
+#include <stdio.h>
+int main()
+{
+	int row,col,ui;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for (col=0;col<row+1;col++)
+		{
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+
+
+
+#include <stdio.h>
+int main()
+{
+	int row,col,ui,space;
+	char output='*';
+	scanf("%d",&ui);
+	for( row=0;row<ui;row++)
+	{
+		for (col=0;col<ui-row;col++)
+		{
+			for (space=0;space!=ui;space++)
+			{
+				printf(" ");
+			}
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+		
+		return 0;
+}
+
+
+
+#include <stdio.h>
+int main()
+{
+	int row,col=0;
+	char output='*';
+	for(row=5;row!=col;col++)
+	{
+		for(col>0;col<row-1;row--){
+			printf("%c",output);  
+		}
+		printf("\n");
+	}
+}
+
+
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <math.h>
+
+int sum_digits(int n){
+	int ones,tens,hundreds,result;
+	ones=n%10;
+	tens=(n/10)%10;
+	hundreds=n/100;
+	result=ones+tens+hundreds;
+	return result;
+	
+}
+
+
+int main(){
+	int num,sum=0;
+	printf("enter an integer: ");
+	scanf("%d",&num);
+	sum=sum_digits(num);
+	printf("sum of digits: %d \n",sum);
+	return 0;
+}
