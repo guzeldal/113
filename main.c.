@@ -58,3 +58,71 @@ void printPant(void)
         printf("\n");
     }
 }
+
+#include <stdio.h>
+#include <math.h>
+void printPant(void);
+
+int main ()
+
+{
+
+int i,j,k,r=10,x=10,y=10,d,a,l;
+
+for(i=0;i<24;i++)
+
+{
+
+for(j=0;j<25;j++)
+
+{ a=((i-x)*(i-x))+((j-y)*(j-y));
+
+ d=sqrt(a);
+
+ if(r==d)
+{
+
+printf("*");
+
+}
+
+else
+
+printf(" ");
+
+}
+
+printf("\n");
+
+}
+    printPant();
+    
+return 0;
+
+}
+
+void printPant(void)
+{
+    int a,b;
+    
+    for(b=0;b<5;b++)
+    {
+        if(b<3)
+        {
+            for(a=0;a<5;a++)
+                printf("*");
+        }
+        else
+        {
+
+            for(a=0;a<5;a++)
+            {
+                if(a==2)
+                    printf(" ");
+                else
+                    printf("*");
+            }
+        }
+        printf("\n");
+    }
+}
