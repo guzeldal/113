@@ -126,3 +126,29 @@ void printPant(void)
         printf("\n");
     }
 }
+
+void funcChar(char ch);
+void funcCol(int a,char ch);
+
+
+int main()
+{
+	int a;
+	char userinput1;
+   scanf("%c%5",&userinput1,&a);
+   funcCol(a,userinput1);
+}
+
+
+void funcChar(char ch)
+{
+	printf("%c",ch);
+}
+
+void funcCol(int a,char ch)
+{
+	int counter;
+	for(counter=0;counter<a;counter++)
+		funcChar(ch);			
+}
+
